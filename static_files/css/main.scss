@@ -1,0 +1,68 @@
+//you can't see this comment in css file
+
+$link-hover-color:#ddd;
+$footer-color:#ddd;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+}
+
+nav {
+  display: flex;
+  background-color: #333;
+  a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    &:hover{
+      background-color: $link-hover-color;
+      color: #000;
+    }
+  }
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+#main-contents {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: $footer-color;
+}
+
+@media screen and (max-width: 700px) {
+  section, nav {
+    flex-direction: column;
+  }
+}

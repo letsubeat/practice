@@ -1,0 +1,10 @@
+Django==2.0.6
+django-appconf==1.0.2
+django-compressor==2.2
+django-sass-processor==0.7
+freeze==1.0.10
+libsass==0.14.5
+pytz==2018.4
+rcssmin==1.0.6
+rjsmin==1.0.12
+six==1.11.0
